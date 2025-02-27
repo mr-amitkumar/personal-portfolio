@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="cointainer">
+        <a href="#" class="logo"><img src="./assests/Logo (2).jpg" alt="">
+            Amit Ku. Mahapatra</a>
+
+
+
+            <input type="checkbox" name="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="open"></i>
+                <i class='bx bx-x' id="close"></i>
+            </label>
+
+        <nav class="navi">
+            <a href="index.html">Intro</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+
+    <section class="about">
+        <img src="./assests/logo512.jpg" alt="">
+        <h1>
+            About Me
+        </h1>
+        <p>Hi! I'm <strong>Amit Ku. Mahapatra</strong>, a passionate web developer and designer with a knack for creating</p>
+        <p><span id="element"></span>. My journey in coding has been fueled with my skilled and
+            knowledge by</p>
+        <p>problem-solving and creativity.</p>
+    </section>
+    <section class="skills">
+        <h1>My-Skills</h1>
+        <div class="skills-info">
+            <div class="info">
+                <h3><img src="./assests/htmlicon.png" alt=""></h3>
+                <p>Crafting semantic and accessible web structures.</p>
+            </div>
+            <div class="info">
+                <h3><img src="./assests/cssicon.png" alt=""></h3>
+                <p>Designing responsive and visually appealing layouts..</p>
+            </div>
+            <div class="info">
+                <h3><img src="./assests/bootstrapicon.png" alt=""></h3>
+                <p>Quickly designing responsive, mobile-first sites.</p>
+            </div>
+            <div class="info">
+                <h3><img src="./assests/jsicons.png" alt=""></h3>
+                <p>Creating interactive functionality with clean JS code..</p>
+            </div>
+            <div class="info">
+                <h3><img src="./assests/reacticon.png" alt=""></h3>
+                <p>a JavaScript library that helps developers build user interfaces (UIs) for websites, mobile apps, and desktop apps.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="achive">
+        <h1>Achivement</h1>
+        <ul class="achive-sec">
+            <li>Completed a <strong>Web Development Internship</strong> From Octanet Service Pvt Ltd.</li>
+            <li>Passionate contributor to open-source projects on <strong>GitHub</strong>.</li>
+        </ul>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+      <script src="script.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Modern', 'User-Friendly','Responsive Designes'],
+      typeSpeed: 50,
+    });
+  </script>
+    </body>
+    </html>

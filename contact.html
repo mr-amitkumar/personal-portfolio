@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="cointainer">
+        <a href="#" class="logo"> <img src="assests/Logo (2).jpg" alt="">
+            Amit Ku. Mahapatra</a>
+
+        <input type="checkbox" name="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="open"></i>
+            <i class='bx bx-x' id="close"></i>
+        </label>
+
+        <nav class="navi">
+            <a href="index.html">Intro</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <p>If you have any query about me or need any information,then free to fill the form given below to get in
+            touch...</p>
+
+        <div class="contact-info">
+            <form action="https://api.web3forms.com/submit" method="post">
+                <input type="hidden" name="access_key" value="ab5c6877-a3ca-4012-b58b-a36fa42a56c5">
+                <input type="text" name="name" placeholder="Your Name" required autocomplete="off">
+                <input type="email" name="email" placeholder="Your email" required autocomplete="off">
+                <input type="tel" name="pone" placeholder="Your Phone Number" required autocomplete="off">
+                <textarea name="message" placeholder="Enter Your message here..." required
+                    autocomplete="off"></textarea>
+                <button type="submit" class="contact-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
